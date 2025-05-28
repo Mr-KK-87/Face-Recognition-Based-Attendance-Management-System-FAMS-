@@ -57,14 +57,14 @@ By integrating OpenCV for real-time image processing, Pandas for data handling, 
 ## 📂 Project Structure
 
 Face-Recognition-Attendance/
-│
-├── TrainingImage/ # Captured student face images
-├── TrainingImageLabel/ # Trained LBPH model saved here
-├── StudentDetails/ # CSV storing enrollment and name
-├── Attendance/ # Auto & manual attendance CSVs
-├── AMS.py # Main application file
-├── haarcascade_frontalface_default.xml # OpenCV model for face detection
-└── README.md
+
+- TrainingImage/ # Captured student face images
+ TrainingImageLabel/ # Trained LBPH model saved here
+- StudentDetails/ # CSV storing enrollment and name
+- Attendance/ # Auto & manual attendance CSVs
+- AMS.py # Main application file
+- haarcascade_frontalface_default.xml # OpenCV model for face detection
+- README.md
 
 
 ## 🚀 Getting Started
