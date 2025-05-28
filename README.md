@@ -139,6 +139,13 @@ Improve GUI aesthetics and responsiveness.
 
 Mobile support or web deployment.
 
+## 📌 Notes
+- Ensure the MySQL service is running if using the DB features.
+
+- Use consistent Enrollment IDs when training and recognizing.
+
+- For best results, capture 30–50 images per student.
+
 ## 🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
