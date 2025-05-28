@@ -32,13 +32,13 @@ By integrating OpenCV for real-time image processing, Pandas for data handling, 
 ## 🧰 Tech Stack
 
 - **Frontend**: Tkinter (Python GUI)
-- **Backend**: Python
+- **Backend**: Python (Core programming language)
 - **Database**: MySQL
 - **Libraries Used**:
-  - `OpenCV` – for image capturing and facial recognition
-  - `Pandas` – for handling data
-  - `PIL` – for image processing
-  - `NumPy` – numerical operations
+  - `OpenCV` – Face detection and recognition
+  - `Pandas` – CSV and data manipulation
+  - `PIL` – Image handling
+  - `NumPy` – Matrix and image data handling
   - `pymysql` – MySQL connectivity
 
 
@@ -56,15 +56,15 @@ By integrating OpenCV for real-time image processing, Pandas for data handling, 
 
 ## 📂 Project Structure
 
-Face-Recognition-Attendance/
+📁 FaceRecognition_AttendanceSystem
 
 - TrainingImage/ # Captured student face images
- TrainingImageLabel/ # Trained LBPH model saved here
+- TrainingImageLabel/ # Trained LBPH model saved here
 - StudentDetails/ # CSV storing enrollment and name
 - Attendance/ # Auto & manual attendance CSVs
 - AMS.py # Main application file
 - haarcascade_frontalface_default.xml # OpenCV model for face detection
-- README.md
+- requirements.txt # Python dependencies
 
 
 ## 🚀 Getting Started
@@ -140,11 +140,13 @@ Improve GUI aesthetics and responsiveness.
 Mobile support or web deployment.
 
 ## 📌 Notes
-- Ensure the MySQL service is running if using the DB features.
+- Store paths like TrainingImage/, StudentDetails/, and Attendance/ in correct structure.
+  
+- Make sure your webcam is accessible and functioning.
 
 - Use consistent Enrollment IDs when training and recognizing.
 
-- For best results, capture 30–50 images per student.
+- For custom MySQL credentials, update them in AMS.py.
 
 ## 🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
